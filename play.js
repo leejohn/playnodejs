@@ -16,8 +16,8 @@ function sendEmail(flight_info) {
   // send the message and get a callback with an error or details of the message that was sent
   server.send({
     text: JSON.stringify(flight_info, null, 4),
-    from: "leefirst@vip.qq.com",
-    to: "leejohn <leejohn@qq.com>, limengying <limengying_1990@126.com>",
+    from: "",
+    to: "",
     subject: "Lower Price found for trip to Prague: CNY" + current_m707_price
   }, function (err, message) { console.log(err || message); });
 }
