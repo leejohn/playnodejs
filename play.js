@@ -8,8 +8,8 @@ var current_m707_price = "";
 function sendEmail(flight_info) {
   var email = require("emailjs");
   var server = email.server.connect({
-    user: "leefirst@vip.qq.com",
-    password: "hrwzcxqrjspdbihi",
+    user: "",
+    password: "",
     host: "smtp.qq.com",
     ssl: true
   });
